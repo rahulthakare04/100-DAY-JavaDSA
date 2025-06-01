@@ -1,36 +1,27 @@
-# 🧠 DSA Journey in Java
+# 🧠 100 Days of Java DSA
 
-Welcome to my **Data Structures and Algorithms (DSA) Journey**!  
-This repository contains my daily coding practice and learning in Java — solving classic problems and implementing core algorithms from scratch.
+Welcome to my 100 Days of DSA journey in Java.  
+This repo contains classic algorithms implemented from scratch with clean code and structure.
 
 ---
 
 ## 📅 Day-wise Progress
 
-| Day | Topics Covered                                | Files                                             |
-|-----|-----------------------------------------------|---------------------------------------------------|
-| 1   | ✅ QuickSort (first element as pivot) <br> ✅ MergeSort (Divide & Conquer) | `Day1/QuickSort.java`, `Day1/MergeSort.java`     |
-
----
-
-## 🚀 Goals of This Journey
-- Master core DSA concepts
-- Improve problem-solving skills
-- Build clean and efficient Java code
-- Track daily progress consistently
+| Day | Topics Covered                                                              | Files                                                                 |
+|-----|------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| 1   | ✅ QuickSort (first element as pivot) <br> ✅ MergeSort <br> ✅ Modified Binary Search (rotated sorted array) | `Day1/QuickSort.java`, `Day1/MergeSort.java`, `Day1/ModifiedBinarySearch.java` |
 
 ---
 
 ## 🛠️ Tech Stack
-- Java (JDK 17+)
-- VS Code / IntelliJ IDEA
+- Java 17
 - Git & GitHub
+- VS Code / IntelliJ
 
 ---
 
-## 🔃 How to Run
+## 🚀 How to Run
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/DSA-Journey.git
-   cd DSA-Journey/Day1
+```bash
+javac Day1/QuickSort.java
+java Day1.QuickSort
