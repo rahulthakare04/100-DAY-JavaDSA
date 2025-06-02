@@ -1,3 +1,21 @@
+/*
+ * 🧠 Problem: Fill an array recursively and then backtrack to modify it
+ *
+ * 👇 Approach:
+ * 1. Start with an empty array.
+ * 2. Use recursion to fill it with incremental values (starting from val).
+ * 3. When base case is reached (i == arr.length), print the array.
+ * 4. On backtracking, reduce each value by 2 (i.e., simulate "undo" step).
+ * 5. Print the array again after full recursion to see backtracked version.
+ *
+ * 🔁 Example output:
+ * Forward fill: 1 2 3 4 5
+ * Backtrack    : -1 0 1 2 3
+ */
+
+
+
+
 package Backtraking;
 
 public class Array {
