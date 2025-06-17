@@ -12,6 +12,6 @@ public class Que1{
             System.out.println("rahul thakare ");
         }
 
-        
+        sc.close();
     }
 }
