@@ -1,26 +1,22 @@
-//wap to print the sum of digit in the number 
-
-
+// wap to fing the product od digit of the give number 
 
 import java.util.Scanner;
 
-class Que1{
+public class Que2 {
+    
     public static void main(String[] args) {
-        
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("enter the number : ");
         int n=sc.nextInt();
 
-        
-        int digitSum=0;
+        int product=1;
+
         while(n>0){
             int lastDigit=n%10;
+            product*=lastDigit;
             n=n/10;
-            digitSum+=lastDigit;
-
         }
-
-        System.out.println(digitSum);
+        System.out.println(product);
         sc.close();
     }
 }
