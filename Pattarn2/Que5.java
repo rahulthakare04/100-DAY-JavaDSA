@@ -13,5 +13,6 @@ public class Que5 {
             facorial=facorial*i;
         }
         System.out.println(facorial);
+        sc.close();
     }
 }
