@@ -1,4 +1,4 @@
-// LeetCode 231 - Power of Two
+package LeetCode;// LeetCode 231 - Power of Two
 // Problem: Check if a given integer 'n' is a power of 2
 // An integer is a power of two if there exists an integer x such that n == 2^x
 
@@ -11,23 +11,23 @@ Logic:
    - After the loop, if the result is 1 → it means n was originally a power of 2 → return true
    - Otherwise, if we cannot reach 1 → n is not a power of 2 → return false
 */
-
-class Solution {
-    public boolean isPowerOfTwo(int n) {
-        if(n < 1){
-            return false;
-        }
-        else if(n == 1){
-            return true;
-        } else {
-            while(n % 2 == 0){
-                n = n / 2;
-            }
-            if(n == 1){
-                return true;
-            } else {
-                return false;
-            }
-        }
-    }
-}
+//
+//class Solution {
+//    public boolean isPowerOfTwo(int n) {
+//        if(n < 1){
+//            return false;
+//        }
+//        else if(n == 1){
+//            return true;
+//        } else {
+//            while(n % 2 == 0){
+//                n = n / 2;
+//            }
+//            if(n == 1){
+//                return true;
+//            } else {
+//                return false;
+//            }
+//        }
+//    }
+//}

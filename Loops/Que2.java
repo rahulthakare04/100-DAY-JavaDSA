@@ -1,4 +1,4 @@
-//print number 1 to 10
+package Loops;//print number 1 to 10
 
 
 public class Que2 {

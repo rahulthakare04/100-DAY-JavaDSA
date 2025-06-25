@@ -1,4 +1,4 @@
-// write a program to reverse the program 
+package Pattarn2;// write a program to reverse the program
 
 import java.util.Scanner;
 
