@@ -37,4 +37,4 @@ javac Backtraking/Permitation.java
 java Backtraking.Permitation
 
 javac Backtraking/Array.java
-java Backtraking.Array.
+java Backtraking.Array
