@@ -32,7 +32,7 @@ java Day1.QuickSort
 # Day 2&3
 javac Backtraking/Subset.java
 java Backtraking.Subset
-
+.
 
 javac Backtraking/Permitation.java
 java Backtraking.Permitation
